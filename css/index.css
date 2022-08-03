@@ -9,7 +9,7 @@ body{
    font-family: 'Fraunces', serif;
 }
 section{
-    margin-top: 10px;
+    margin-top: 80px;
     display: flex;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
@@ -19,12 +19,13 @@ section{
     height: 700px;
     text-align: center;
     margin-left: 350px;
+
 }
 .img_pc{
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     width: 500px;
-    height: 700px;
+    height: 500px;
 }
 .contains{
     background-color: hsl(0, 0%, 100%);
@@ -32,8 +33,9 @@ section{
     text-align: left;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
-    padding: 50px;
+    padding: 20px;
     width: 500px;
+    height: 500px;
 }
 .title{
     margin-left: 8px;
@@ -44,12 +46,11 @@ section{
 h1{
     margin-left: 8px;
     color: hsl(212, 21%, 14%);
-    font-size: 1.9em;
-    width: 70%;
+    font-size: 1.7em;
+    width: 58%;
     font-weight: bold;
 }
 .p{
-    margin-top: 62px;
     color: hsl(228, 12%, 48%);
     font-size: 14px;
     margin-left: 8px;
@@ -58,7 +59,7 @@ h1{
 }
 strong{
     color:  hsl(158, 36%, 37%);
-    font-size: 2.5em;
+    font-size: 1.8em;
     margin-left: 12px;
 }
 strike{
@@ -75,15 +76,15 @@ strike{
     margin-top: 50px;
 }
 .btn{
-   margin-top: 50px;
+   margin-top: 10px;
    margin-left: 8px;
-   padding: 22px;
+   padding: 12px;
    width: 250px;
    background-color: hsl(158, 36%, 37%);;
-   border-bottom-left-radius: 3%;
-   border-bottom-right-radius: 3%;
-   border-top-left-radius: 3%;
-   border-top-right-radius: 3%;
+   border-bottom-left-radius: 0.8rem;
+   border-bottom-right-radius: 0.8rem;
+   border-top-left-radius: 0.8rem;
+   border-top-right-radius: 0.8rem;
    border: 0;
    color: hsl(0, 0%, 100%);
    cursor: pointer;
